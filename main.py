@@ -10,7 +10,7 @@ from plotly import graph_objs as go
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title('Neural-Network Stock Predictions')
+st.title('ObieCodes - Stock Price Neural Network')
 
 stocks = []
 stock_input = st.text_input("Enter Name of Stock Ticker", "AMZN")
