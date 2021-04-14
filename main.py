@@ -1,5 +1,6 @@
 # pip install streamlit fbprophet yfinance plotly
 import streamlit as st
+import webbrowser
 from datetime import date
 
 import yfinance as yf
@@ -7,8 +8,14 @@ from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 
+
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
+
+home_link = '[Home](https://www.obie.codes)'
+href = st.markdown(home_link, unsafe_allow_html=True)
+
+
 
 st.title('ObieCodes - Stock Price Neural Network')
 
