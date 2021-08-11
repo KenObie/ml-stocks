@@ -2,7 +2,6 @@
 import streamlit as st
 import webbrowser
 from datetime import date
-
 import yfinance as yf
 from prophet import Prophet
 from prophet.plot import plot_plotly
@@ -82,3 +81,4 @@ st.plotly_chart(fig1)
 st.write("Forecast components")
 fig2 = m.plot_components(forecast)
 st.write(fig2)
+
