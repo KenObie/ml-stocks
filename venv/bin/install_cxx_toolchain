@@ -1,4 +1,4 @@
-#!/Users/kenobrien/Desktop/repos/KenObie/stocks-ml-predictor/venv/bin/python
+#!/Users/kenobrien/Desktop/repos/ml-stocks/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
